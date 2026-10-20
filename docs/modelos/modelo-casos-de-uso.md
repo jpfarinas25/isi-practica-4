@@ -110,9 +110,9 @@ Repite el esquema siguiente para cada caso que se vaya a describir. Usa el ident
 
 ### 6.1 Descripción de un caso
 
-**Identificador y nombre:** [Indica el caso.]
+**Identificador y nombre:** UC-05: Actualizar perfil.
 
-**Estado de la descripción:** [Indica si es un resumen, una descripción esencial o una descripción detallada.]
+**Estado de la descripción:** Descripción detallada
 
 **Objetivo:** [Explica qué resultado pretende obtener el participante.]
 
