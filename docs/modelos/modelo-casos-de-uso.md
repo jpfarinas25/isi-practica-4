@@ -108,7 +108,7 @@ Consulta el [catálogo canónico](../requisitos/catalogo-requisitos.md) y la [SR
 
 Repite el esquema siguiente para cada caso que se vaya a describir. Usa el identificador y el nombre del apartado 3. El nivel de detalle dependerá del trabajo previsto para ese caso.
 
-### 6.1 Descripción de un caso
+### 6.1 Descripción detallada UC-05
 
 **Identificador y nombre:** UC-05: Actualizar perfil.
 
@@ -134,6 +134,30 @@ Repite el esquema siguiente para cada caso que se vaya a describir. Usa el ident
 
 Describe el comportamiento que se necesita. Las decisiones sobre componentes, clases o tecnologías pertenecen al trabajo de arquitectura y diseño.
 
+### 6.2 Descripción detallada UC-21
+
+**Identificador y nombre:** UC-21: Buscar receta.
+
+**Estado de la descripción:** Descripción detallada
+
+**Objetivo:**  localizar una receta que cumpla sus criterios y consultar su detalle.
+
+**Participantes:** Participantes: Usuario registrado, como actor principal.
+
+**Condiciones previas:** Precondiciones: El usuario dispone de una cuenta activa. 
+El usuario tiene una sesión iniciada.
+
+**Inicio:** El usuario solicita buscar recetas.
+
+**Escenario principal:** El usuario encuentra recetas que cumplen los requisitos o criterios establecidos y puede consultar los detalles de la misma.
+
+**Alternativas y errores:** [Describe las variaciones conocidas y su resultado.]
+
+**Resultado:** [Indica qué queda establecido al terminar y qué ocurre si el objetivo no se alcanza.]
+
+**Reglas y NFR pertinentes:** [Remite a los requisitos que condicionan el comportamiento.]
+
+**Preguntas abiertas:** [Registra lo que aún falta por confirmar.]
 ## 7 Continuidad entre iteraciones
 
 En E1, indica que esta es la primera vista del modelo. A partir de la siguiente iteración, resume qué elementos se incorporan y cuáles se revisan, conservan o retiran.
