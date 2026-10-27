@@ -15,7 +15,7 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como persona usuaria, quiero buscar recetas a través de una palabra o frase, incluir ingredientes obligatorios o excluir ingredientes, para encontrar recetas que se ajusten exactamente a mis necesidades.
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
@@ -25,15 +25,15 @@ Como [rol], quiero [capacidad amplia], para [beneficio].
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** [Excluir]
 
-Como [rol], quiero [capacidad], para [beneficio].
+ Como persona usuaria que busca una receta,quiero a través de una palabra o frase, poder excluir un ingrediente,para obtener una receta que se ajuste a mis necesidades.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
+- CA-01 Dado que la búsqueda contiene tres ingredientes incluidos,cuando excluyo un ingrediente, entonces el sistema conserva los dos ingredientes incluidos.
 - **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
@@ -41,13 +41,13 @@ Como [rol], quiero [capacidad], para [beneficio].
 
 **Título:** [Capacidad]
 
-Como [rol], quiero [capacidad], para [beneficio].
+ Como persona usuaria, quiero indicar ingredientes para incluir en la búsqueda de recetas, para encontrar recetas que contengan los ingredientes que tengo disponibles.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.**Dado que la persona usuaria ha introducido una palabra o frase en el buscador, cuando añade un ingrediente a la lista de inclusión y aplica la búsqueda, entonces el sistema muestra las recetas que coinciden con el texto introducido y que además contienen el ingrediente indicado.
 - **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
